@@ -11,3 +11,7 @@
 .experience-row h3 a:hover{color:var(--accent)}
 
 .experience-row h3{font-size:21px}
+
+.text-link{display:inline-flex;gap:26px;align-items:center;padding-bottom:5px;border-bottom:1px solid var(--accent);font-size:12px;margin-top:auto}.text-link span{color:var(--accent)}.text-link:hover{color:var(--accent)}
+.motion-ready .reveal{opacity:0;transform:translateY(18px);transition:opacity 650ms ease,transform 650ms cubic-bezier(.2,.7,.25,1);transition-delay:var(--reveal-delay,0ms)}.motion-ready .reveal.is-visible{opacity:1;transform:translateY(0)}
+@media(prefers-reduced-motion:reduce){.motion-ready .reveal{opacity:1;transform:none;transition:none}}
