@@ -3,3 +3,5 @@
 .pending-note{font:9px var(--mono);letter-spacing:.06em;color:#85867a}
 
 .site-header{position:sticky;top:0;z-index:10;background:rgba(17,17,15,.94);backdrop-filter:blur(12px)}main section[id],footer[id]{scroll-margin-top:90px}
+
+.skill-groups{display:grid;grid-template-columns:1fr 1fr;gap:20px 16px;margin-top:18px}.skill-group h3{font:10px var(--mono);letter-spacing:.04em;color:#b7b6aa;margin:0 0 8px}.skills .skill-group ul{margin-top:0;gap:6px}.skills .skill-group li{padding:5px 8px}@media(max-width:480px){.skill-groups{grid-template-columns:1fr}}
