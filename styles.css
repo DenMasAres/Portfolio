@@ -19,3 +19,5 @@
 /* Ajuste de lectura: un punto más en textos y etiquetas, sin alterar titulares. */
 body{font-size:16px;line-height:1.7}.site-header{font-size:12px}.wordmark span{font-size:11px}.eyebrow,.art-label,.art-index,.project-topline,.exp-date,.footer-bottom{font-size:11px}.hero-meta{font-size:10px}.section-note{font-size:13px}.intro{font-size:16px}.project-visual{font-size:11px}.project-visual i{font-size:10px}.project-type{font-size:11px}.project-info>p,.contribution p{font-size:13px}.contribution>span,.skills>span{font-size:10px}.profile-copy{font-size:14px}.skills li{font-size:11px}.skill-group h3{font-size:11px}.experience-row div p,.exp-description{font-size:12px}.footer-note{font-size:13px}.availability-note{font-size:12px}.contact-links a{font-size:14px}
 .project-info>p.project-type{font-size:11px}
+
+.project-info>p.project-status-note{font-size:11px;color:var(--muted);border-left:2px solid var(--accent);padding-left:10px;margin:0 0 18px}
